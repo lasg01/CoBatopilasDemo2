@@ -24,14 +24,14 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 0.6634442486166847,
-        "pitch": -0.3211706497954623,
+        "yaw": 0.866265241993883,
+        "pitch": -0.39555744518627733,
         "fov": 1.2634123859167636
       },
       "linkHotspots": [
         {
-          "yaw": 1.4937869275050772,
-          "pitch": 0.05367070004573726,
+          "yaw": 1.476742448171576,
+          "pitch": 0.06536802474077419,
           "rotation": 0,
           "target": "1-extpuerta"
         }
@@ -62,16 +62,16 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 3.075333817356551,
-        "pitch": -0.48489178170935787,
+        "yaw": 3.0839888713897103,
+        "pitch": -0.4973530118868421,
         "fov": 1.2634123859167636
       },
       "linkHotspots": [
         {
-          "yaw": 3.114184958168247,
-          "pitch": 0.018678544282344944,
+          "yaw": 3.112785696153109,
+          "pitch": -0.013716930351314716,
           "rotation": 0,
-          "target": "2-planta-baja"
+          "target": "3-entrada"
         }
       ],
       "infoHotspots": []
@@ -100,23 +100,217 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -2.877725406240554,
-        "pitch": 0,
+        "yaw": 3.105370634971143,
+        "pitch": 0.00027045890507793047,
         "fov": 1.2634123859167636
       },
       "linkHotspots": [
         {
-          "yaw": -3.034819114645213,
-          "pitch": -0.19475945438868436,
+          "yaw": -3.014020691227616,
+          "pitch": -0.22354196770873003,
           "rotation": 0,
-          "target": "3-401"
+          "target": "3-entrada"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-401",
-      "name": "401",
+      "id": "3-entrada",
+      "name": "Entrada",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1344,
+      "initialViewParameters": {
+        "yaw": -0.05300516904137886,
+        "pitch": 0.05199676586196311,
+        "fov": 1.2634123859167636
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.07370196683934083,
+          "pitch": 0.0623134063149795,
+          "rotation": 0,
+          "target": "5-sala"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-pasillo",
+      "name": "Pasillo",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1344,
+      "initialViewParameters": {
+        "yaw": 1.592383842109153,
+        "pitch": 0.025811206515399476,
+        "fov": 1.2634123859167636
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.8246628001503105,
+          "pitch": 0.054353986593387305,
+          "rotation": 0,
+          "target": "5-sala"
+        },
+        {
+          "yaw": 1.9971657406850136,
+          "pitch": 0.0615804847369148,
+          "rotation": 1.5707963267948966,
+          "target": "6-cocina"
+        },
+        {
+          "yaw": 3.1382306401887856,
+          "pitch": 0.10982389375396728,
+          "rotation": 0,
+          "target": "3-entrada"
+        },
+        {
+          "yaw": -1.5132048620254004,
+          "pitch": 0.03942670952484484,
+          "rotation": 0,
+          "target": "9-bao"
+        },
+        {
+          "yaw": -0.6861299499606197,
+          "pitch": 0.04745799506398285,
+          "rotation": 1.5707963267948966,
+          "target": "8-recmara-2"
+        },
+        {
+          "yaw": -1.9058051904159914,
+          "pitch": 0.059122244744333585,
+          "rotation": 4.71238898038469,
+          "target": "7-recmara-1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-sala",
+      "name": "Sala",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1344,
+      "initialViewParameters": {
+        "yaw": 1.5433311287797835,
+        "pitch": 0.13900480475994392,
+        "fov": 1.2634123859167636
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.4546617453559456,
+          "pitch": 0.01898768340292456,
+          "rotation": 0,
+          "target": "6-cocina"
+        },
+        {
+          "yaw": 2.3093642336205207,
+          "pitch": 0.03011401547899517,
+          "rotation": 1.5707963267948966,
+          "target": "4-pasillo"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-cocina",
+      "name": "Cocina",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1344,
+      "initialViewParameters": {
+        "yaw": 1.3287931633597214,
+        "pitch": 0.004093524217925193,
+        "fov": 1.2634123859167636
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.5000091835288085,
+          "pitch": 0.09475462794352474,
+          "rotation": 0,
+          "target": "5-sala"
+        },
+        {
+          "yaw": 1.1322023612338334,
+          "pitch": 0.3439935233678284,
+          "rotation": 4.71238898038469,
+          "target": "4-pasillo"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "7-recmara-1",
+      "name": "Recámara 1",
       "levels": [
         {
           "tileSize": 256,
@@ -142,213 +336,18 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-distribuidor",
-      "name": "Distribuidor",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1344,
-      "initialViewParameters": {
-        "yaw": 1.571826098455558,
-        "pitch": 0.006822941287115469,
-        "fov": 1.2634123859167636
-      },
       "linkHotspots": [
         {
-          "yaw": 2.0325027243613114,
-          "pitch": 0.14304993303690416,
-          "rotation": 0,
-          "target": "5-cocina"
-        },
-        {
-          "yaw": 1.0095738912519892,
-          "pitch": 0.12047933189195703,
-          "rotation": 0,
-          "target": "6-sala"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "5-cocina",
-      "name": "Cocina",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1344,
-      "initialViewParameters": {
-        "yaw": 1.3754286877086308,
-        "pitch": 0.04991532183185754,
-        "fov": 1.2634123859167636
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.3788770156278183,
-          "pitch": 0.05335846887018647,
-          "rotation": 0,
-          "target": "6-sala"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "6-sala",
-      "name": "Sala",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1344,
-      "initialViewParameters": {
-        "yaw": 1.5400245589248618,
-        "pitch": 0.29122601447869556,
-        "fov": 1.2634123859167636
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.3465915377965567,
-          "pitch": 0.0314276138443077,
+          "yaw": -0.310354116308746,
+          "pitch": 0.0577306933703543,
           "rotation": 1.5707963267948966,
-          "target": "7-bao"
-        },
-        {
-          "yaw": 1.5451276492793973,
-          "pitch": 0.09982296238117172,
-          "rotation": 0,
-          "target": "5-cocina"
+          "target": "8-recmara-2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "7-bao",
-      "name": "Baño",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1344,
-      "initialViewParameters": {
-        "yaw": 2.0341856262477744,
-        "pitch": 0.40984852887331513,
-        "fov": 1.2634123859167636
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.3308437571799239,
-          "pitch": 0.005437255700433852,
-          "rotation": 1.5707963267948966,
-          "target": "8-recmara-1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "8-recmara-1",
-      "name": "Recámara 1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1344,
-      "initialViewParameters": {
-        "yaw": 1.611983614938226,
-        "pitch": 0.08029385118068788,
-        "fov": 1.2634123859167636
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.325527198042483,
-          "pitch": 0.09457751884871435,
-          "rotation": 7.853981633974483,
-          "target": "9-recmara-2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "9-recmara-2",
+      "id": "8-recmara-2",
       "name": "Recámara 2",
       "levels": [
         {
@@ -371,22 +370,60 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -3.1315288217469757,
-        "pitch": 0.12596997113012876,
+        "yaw": -3.0647956815830906,
+        "pitch": 0.15168129253757456,
         "fov": 1.2634123859167636
       },
       "linkHotspots": [
         {
-          "yaw": -2.5229957694294534,
-          "pitch": 0.07646564005916012,
-          "rotation": 1.5707963267948966,
-          "target": "4-distribuidor"
+          "yaw": -2.526420624302652,
+          "pitch": 0.03217005734550504,
+          "rotation": 4.71238898038469,
+          "target": "9-bao"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-bao",
+      "name": "Baño",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1344,
+      "initialViewParameters": {
+        "yaw": 2.101701599389312,
+        "pitch": 0.44737682568324644,
+        "fov": 1.2634123859167636
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.4957364212050024,
+          "pitch": 0.11554802961322608,
+          "rotation": 0,
+          "target": "4-pasillo"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "Demo 2",
+  "name": "201-001",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
